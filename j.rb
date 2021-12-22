@@ -79,7 +79,7 @@ while next_game
   if next_game == 20
     puts "あっち向いてホイをします"
     puts "あなたは顔を向けます"
-    next_game = hoi_win(next_game)
+    next_game = hoi_lose(next_game)
   end
 end
 
